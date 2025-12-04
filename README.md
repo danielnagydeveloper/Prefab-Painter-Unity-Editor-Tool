@@ -37,7 +37,7 @@ Prevents placing a prefab too close to an existing one
 
 Keeps spacing clean, avoids intersecting objects
 
-🎹 Hotkeys
+Hotkeys
 
 S → Single Mode
 
