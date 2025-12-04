@@ -10,6 +10,8 @@ Brush Mode — distribute multiple prefabs inside a circular brush area
 
 Erase Mode — removes previously painted objects inside the brush radius
 
+
+
 Placement Controls
 
 Paint on Drag — continuously paint while moving the mouse
@@ -20,10 +22,14 @@ Random scale / random rotation — natural variation for vegetation, rocks, etc.
 
 Surface offset — slightly raise objects above the terrain
 
+
+
 Grid Snapping
 
 Snap prefab placement to a configurable XZ grid
 Useful for cities, modular assets, or architectural environments.
+
+
 
 Layer Filtering
 
@@ -31,11 +37,15 @@ Raycast only against a target layer (e.g., Terrain)
 
 Avoids painting on unwanted colliders
 
+
+
 Spawn Avoidance
 
 Prevents placing a prefab too close to an existing one
 
 Keeps spacing clean, avoids intersecting objects
+
+
 
 Hotkeys
 
@@ -48,6 +58,8 @@ E → Erase Mode
 Undo Support
 
 All actions support Unity Undo (Ctrl + Z )
+
+
 
 Demo GIF
 
@@ -92,11 +104,15 @@ Physics.Raycast(mask)
 Overlap detection for spawn avoidance
 Physics.OverlapSphere()
 
+
+
 Requirements
 
 Unity 2021+ (tested on 2021/2022/2023)
 
 Works with any render pipeline (URP/HDRP/Built-in)
+
+
 
 License
 
